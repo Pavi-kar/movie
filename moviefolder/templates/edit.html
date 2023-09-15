@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+<form method="POST" enctype="multipart/form-data" style="margin-top:20px;margin-left:42%;color:white;padding-left:40px;padding-top:20px;padding-bottom:10px;border: 2px solid;width:350px;border-color:black;height:600x;">
+    {% csrf_token %}
+<h5 style="padding-left:10px;color:yellow;">Updating Details of Movie : {{movie.name}} </h5><br>
+    <input class="box" type="text" name="name" placeholder="Enter movie name"><br><br>
+            <textarea class="des" type="text" name="desc" placeholder="Enter description" style="width:190px;height:100px;"></textarea><br><br>
+            <input class="box" type="text" name="year" placeholder="Enter year"><br><br>
+            <input class="box" type="file" name="img"><br><br>
+    <button type="submit" class="btn btn-warning" style="color:black;margin-left:60px;padding-top:5px;padding-left:10px;padding-bottom:5px;font-weight:bold;">Update</button>
+</form>
+{% endblock %}

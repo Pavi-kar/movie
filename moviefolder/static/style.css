@@ -1,0 +1,56 @@
+.main{
+        margin-left:42%;
+        margin-top:20px;
+        font-size:22px;
+}
+.add{
+
+border-radius:4px;
+text-align:center;
+margin-left:450px;
+font-size:20px;
+background: #450104;
+color: white;
+
+}
+.outer{
+background-image:url('images/bgimg3.jpeg');
+        background-size: cover;
+        background-repeat:no repeat;
+}
+
+.details_page{
+
+width:800px;
+color:white;
+line-height:30px;
+margin-left:150px;
+margin-top:10px;
+font-size:24px;
+text-align:justify;
+}
+
+.form_style{
+margin-left:450px;
+margin-top:100px;
+}
+
+.box{
+width:300px;
+height:30px;
+padding:5px;
+border-radius:12px;
+}
+.des{
+width:300px;
+height:150px;
+border-radius:12px;
+padding:0;
+}
+.sub{
+width:100px;
+border-radius:12px;
+margin-left:90px;
+background:black;
+color:white;
+}
